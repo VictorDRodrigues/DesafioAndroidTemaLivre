@@ -34,7 +34,7 @@
 
 
             <HorizontalScrollView
-                android:id="@+id/Red_Line"
+                android:id="@+id/red_Line"
                 android:text="H1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -789,6 +789,11 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
+              //somente estetico para não ficar grudado na tela
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ></View>
 
 
         </LinearLayout>
